@@ -1,0 +1,53 @@
+
+* {
+    margin: 0;
+  padding:0;
+}
+#top {
+  width: 100%;
+  height: 200px;
+  border:1px solid red;
+}
+#menu {
+  width: 100%;
+  height: 50px;
+}
+#conteiner {
+  width: 100%;
+  border: 1px solid blue;
+}
+#list {
+  background: #007ce6;
+  float: left;
+  width: 30%;
+}
+#list ul {
+  text-align: center;
+}
+#list ul li {
+    width: 93%;
+  margin: 10px auto;
+  text-align: center;
+    list-style: none;
+  display: inline-block;
+
+}
+h2 {
+  background: #FFF;
+
+  border-radius:5px;
+  text-align: center;
+}
+#inside {
+    float: left;
+  width: 70%;
+  text-align: center;
+}
+.panel {
+
+  margin-top: 5px;
+  border-radius: 5px;
+  height: 100px;
+  background: #FFF;
+
+}
