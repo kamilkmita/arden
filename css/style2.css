@@ -3,7 +3,9 @@
 	margin: 0;
 	padding: 0;
 }
-
+.clear {
+	clear: both;
+}
 .text-center {
 	text-align: center;
 }
@@ -22,7 +24,7 @@ h2	{
 .inside {
 	font-family: verdana;
 	margin: 20px auto;
-	font-size: 20px;
+	font-size: 18px;
 	width: 70%;
 
 }
@@ -30,6 +32,16 @@ h2	{
 .inside ul li {
 	list-style-position: inside;
 }
+
+
+.wysylka small {
+	float: right;
+	overflow: auto;
+}
+.wysylka
+
+
+
 .klocki {
 	overflow: auto;
 }
@@ -37,15 +49,31 @@ h2	{
 	height: 100px;
 	font-size: 10px;
 	margin-left:5px;
-	border: 1px solid red;
 	float: left;
+}
+.klocek img {
+	max-width: 100%;
+}
+.klocek.correct img {
+	margin-top: -19px;
+}
+
+
+
+.kontakt img {
+	max-width: 204px;
 }
 .kontakt ul li {
 	list-style: none;
+	margin-top: 5px;
 }
 .kontakt ul li:before {
-	background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/60247-200.png");
-	width: 10px;
-	height: 10px;
-	border:1px solid red;
+    content: '';
+    display: inline-block;
+    height: 18px;
+    padding-right: 2px;
+    width: 19px;
+    background: url("https://d30y9cdsu7xlg0.cloudfront.net/png/60247-200.png") no-repeat center;
+    background-size: 106%;
+    background-position: -3px -1px;
 }
