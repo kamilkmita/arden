@@ -43,19 +43,24 @@ h2	{
 
 
 .klocki {
-	overflow: auto;
+	overflow: hidden;
 }
 .klocek {
-	height: 100px;
 	font-size: 10px;
 	margin-left:5px;
 	float: left;
 }
 .klocek img {
 	max-width: 100%;
+	border-radius: 50px;
 }
 .klocek.correct img {
 	margin-top: -19px;
+}
+
+.klocek.correct_2 img {
+	max-width: 94px;
+	margin-left: 46px;
 }
 
 
