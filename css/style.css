@@ -3,108 +3,212 @@
     margin: 0;
   padding:0;
 }
-#top {
-  width: 100%;
-  height: 200px;
-  border:1px solid red;
+.clear {
+  clear: both;
 }
-#menu {
-  width: 100%;
-  height: 50px;
-  display: inline-block;
-}
-#menu ul {
-    overflow: hidden;
-
-}
-#menu ul li {
-  padding: 9px 7%;
-  float: right;
-
-  border:1px solid red;
-  display: inline;
-}
-#menu ul li.sql {
-  padding: 0;
-  width: 15px;
-}
-
-
-
-
-
-
-#conteiner {
-  width: 100%;
-  border: 1px solid blue;
-}
-#list {
-  background: #007ce6;
-  float: left;
-  width: 30%;
-}
-#list ul {
-  text-align: center;
-      list-style-position: inside;
-}
-#list > ul > li {
-    width: 93%;
-  margin: 10px auto;
-  text-align: center;
-  display: inline-block;
-
+body {
+  background: linear-gradient(to right, #0082e2, #00a3ca, #0082e2, #00a3ca, #0082e2, #00a3ca, #0082e2, #00a3ca, #0082e2, #00a3ca);
 }
 h2 {
   background: #FFF;
   color: #527cba;
   font-family: tahoma;
-  font-size: 16px;
+  font-size: 20px;
   padding: 5px;
   border-radius:5px;
   text-align: center;
 }
 h3 {
   font-size: 10px;
-
+}
+small {
+  font-size: 17px;
+}
+#top {
+  width: 100%;
+}
+#logo {
+  background-color: #FFF;
+  float: left;
+  width: 25%;
+  height: 215px;  
+  overflow: hidden;
+  text-align: center;
 
 }
-#panel small {
-  color: #55009e;
+#logo img {
+  max-width: 212px;
+    overflow: hidden;
+
+}
+#slider {
+  background: url("http://i1376.photobucket.com/albums/ah8/Kamil_Kmita/bg_top_zpsxgbc0qod.jpg") center no-repeat;
+  background-size: 100% 100%;
+
+
+  float: left;
+
+  text-align: center;
+  max-height: 100%;
+  width: 75%;
+}
+#slider img {
+  padding: 10px 0;
+  text-align: center;
+  height: 195px;
+}
+
+#menu {
+  background: linear-gradient(to right, #FFF, #8582bd, #01b5cb);
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 10px black;
+}
+#menu ul {
+    overflow: hidden;
+
+}
+#menu ul li {
+    font-family: tahoma;
+    line-height: 21px;
+padding-left: 47px;
+padding-top: 8px;
+width: 150px;
+  float: right;
+  color: #FFF;
+  font-size: 23px;
+  display: inline;
+}
+#menu ul li a {
+  text-decoration: none;
+    color: #FFF;
+}
+#menu ul li.sql {
+  background: url("http://i1376.photobucket.com/albums/ah8/Kamil_Kmita/kwa1_zps8afopoxb.jpg");
+  background-size: 100% 100%;
+
+  padding-left: 0px;
+  height: 52px;
+  width: 61px;
+}
+
+
+
+#menu ul li.onas { 
+  padding-left: 0px;
+  padding-right: 31px;
+  font-size: 30px;
+  text-align: right;
+      padding-top: 15px;
+    text-align: right;
+}
+
+#conteiner {
+  width: 100%;
+}
+#list {
+  float: left;
+  width: 25%;
+
+}
+#list ul {
+  text-align: center;
+      list-style-position: inside;
+}
+#list > ul > li:first-child {
+  margin-top: 15px;
+}
+#list > ul > li {
+  font-size: 22px;
+    width: 93%;
+  margin: 4px auto;
+  text-align: center;
+  display: inline-block;
+
 }
 
 #inside {
+background-color: #FFF;
     float: left;
-  width: 70%;
+  width: 75%;
   text-align: center;
 }
+
+#inside h1 {
+      font-family: tahoma;
+      margin: 30px 0 ;
+      color: #011c81;
+}
+
+#inside img {
+  max-width: 80%;
+}
+#inside .img {
+  text-align: center;
+  margin-top: 50px;
+  overflow: auto;
+}
+
+#inside .img img {
+
+    max-width: 114px;
+    margin-left: 17px;
+  
+}
+#inside p {
+  text-align: left;
+  padding: 10px;
+  margin: 10px 0 ;
+}
+
 .panel {
+  background: linear-gradient(to right, #FFF , #DBE8FF);
   font-family: verdana;
   color: #2160ae;
   margin-top: 5px;
   border-radius: 5px;
-  background: #FFF;
+    padding: 12px;
 }
 .panel ul {
     list-style-type: square;
 
 }
 .panel li {
+   list-style: none;
   text-align: left;
-  padding-left:15px;
+  margin-left:15px;
 
 }
-.kontakt ul li {
+
+.panel li:before{
+    content: '';
+    display: inline-block;
+    height: 18px;
+    padding-right: 2px;
+    margin-top: 4px;
+    width: 19px;
+    background: url("http://previews.123rf.com/images/blumer/blumer1401/blumer140100069/25494670-Set-of-cute-teddy-bear-icons-with-heart-Stock-Vector.jpg") no-repeat center;
+    background-size: 352%;
+    background-position: -5px -4px;
+
+}
+
+.panel small {
+  color: #55009e;
+}
+.panel.kontakt ul li {
   margin-top: -5px;
 }
+.panel.kontakt ul li a {
 
+  text-decoration: none;
 
-
-
-
-
-
-
-
-
+}
+.panel.kontakt img {
+  max-width: 135px;
+}
+.panel_sprzedazy {
+  width: 100%;
+}
 
 
