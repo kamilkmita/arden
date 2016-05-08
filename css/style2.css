@@ -23,7 +23,7 @@ h2	{
 		color: #292929;
 
 }
-article {
+.article {
 	background: linear-gradient(to bottom, #F8F8FF, #FFF);
 	padding: 40px 0;
 }
@@ -87,7 +87,4 @@ article {
     background: url("https://d30y9cdsu7xlg0.cloudfront.net/png/60247-200.png") no-repeat center;
     background-size: 106%;
     background-position: -3px -1px;
-}
-
-.regulamin {
 }
