@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+  padding:0;
+}
+.clear {
+  clear: both;
+}
+
+header {
+	background: linear-gradient(to bottom, #4889c3, #8882c0);
+	width: 100%;
+	overflow: auto;
+	text-align: center;
+	font-size: 21px;
+	color: #FFF;
+}
+.logo {
+	float: left;
+	width: 30%;
+	border: 1px dotted brown;
+
+}
+.logo img {
+	max-width: 154px;
+	text-align: center;
+}
+nav {
+
+	float: left;	
+	width: 60%;
+	margin-top: 40px;
+	border: 1px solid red;
+}
+nav aside {
+	margin-top: 19px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
