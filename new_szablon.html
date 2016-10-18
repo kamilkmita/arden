@@ -1,29 +1,277 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Arden</title>
-    <link rel="stylesheet" type="text/css" href="css/style3.css">
+<style>
+  * {
+    margin: 0;
+  padding:0;
+}
+.clear {
+  clear: both;
+}
 
-  </head>
-  <body>
+header {
+  background: linear-gradient(to bottom, #4889c3, #8882c0);
+  width: 95%;
+  margin:20px auto;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 21px;
+  height: 146px;
+  overflow: visible;
+  color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0 0 8px black;
+}
+.logo {
+  background: #FFF;
+  float: left;
+  width: 30%;
+  border: 3px dashed #4889c3;
+    margin-top: -10px;
+    overflow: hidden;
+    height: 114%;
+
+
+}
+.logo img {
+  background: #FFF;
+    max-width: 202px;
+    margin-top: -14px;
+  text-align: center;
+}
+nav {
+
+  float: left;  
+  width: 69%;
+  margin-top: 38px;
+}
+nav i {
+  color: #262db9;
+}
+nav aside {
+  margin-top: 19px;
+  margin-bottom: 20px;
+}
+nav aside a {
+  padding: 0px 5px;
+  color: #FFF;
+  text-decoration: none;  
+}
+nav aside a:hover {
+  color: #CAD1EF;
+  text-decoration: none;  
+}
+
+
+h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 17px;
+  text-align: justify;
+  padding: 10px 30px;
+}
+article .glowny{
+  text-align: center;
+}
+article .glowny img {
+  max-width: 300px;
+}
+article .mini {
+  text-align: center;
+  overflow: auto;
+}
+article .mini img {
+    max-width: 114px;
+    margin-left: 17px;
+}
+article .kliknij {
+    font-size: 14px;
+    text-align: center;
+    margin: 33px 44px 14px 36px;
+}
+
+footer {
+  overflow: hidden;
+  width: 851px;
+  margin:auto;
+}
+section {
+font-family: 'Pavanam', sans-serif;
+  float: left;
+  background: linear-gradient(to bottom, #4889c3, #8882c0);
+    min-width: 404px;
+    height: 289px;
+  margin:10px;
+  border-radius: 4px;
+  box-shadow: 0 0 8px black;
+}
+section h3 {
+  margin:0 0 10px 0;
+  font-size: 28px;
+  padding: 13px;
+    width: 45%;
+    height: 63px;
+  background: #FFF;
+  border-radius: 0 0 100%;
+}
+section.platnosc div  {
+  color: #FFF;
+    margin: -4px 22px;
+    font-size: 21px;
+
+}
+section.platnosc img {
+    max-width: 175px;
+    margin-left: 18px;
+  
+}
+section.kontakt {
+  position: relative;
+}
+section.kontakt .logo_mini {
+  position: absolute;
+  top: -25px;
+    right: -5px;
+}
+section.kontakt .logo_mini img {
+  max-width: 132px;
+}
+
+section.kontakt .dane  {
+  color: #FFF;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 18px;
+
+}
+section.kontakt .stopka  {
+  color: #FFF;
+    margin: 19px 22px;
+    font-size: 21px;
+}
+section.kontakt .stopka i {
+  color: #292929;
+}
+
+</style>
+
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Pavanam" rel="stylesheet">
+
 
   <header>
     <div class="logo">
       <img src="http://i1376.photobucket.com/albums/ah8/Kamil_Kmita/logo_zpssqbseqiu.png" alt="">
     </div>
     <nav>
-      tel::231232312 email wewe@o2.pl <br>
-      <aside> O nas Regulamin Nasze aukcje Komentarze</aside>
+      <i class="fa fa-phone"></i>&nbsp;&nbsp;+48 504 237 443 &nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="fa fa-envelope-o"></i>&nbsp;&nbsp;biuro@arden-company.pl <br>
+      <aside> 
+       <a href="http://allegro.pl/sellerInfoFrontend/11282655/aboutSeller">O nas </a>
+       <a href="http://allegro.pl/SendMailToUser.php?userId=11282655">Zadaj pytanie </a>
+       <a href="http://allegro.pl/listing/user/listing.php?us_id=11282655">Nasze aukcje </a>
+       <a href="http://allegro.pl/show_user.php?uid=11282655">Komentarze</a>
+      </aside>
     </nav>
   </header>
-  
-  <article></article>
+  <div class="clear"></div>
+  <article>
 
-  <section class="platnosc"></section>
-  <section class="kontakt"></section>
 
-  </body>
-</html>
+    <h1>Tytul przedmiotu</h1>
+    <div class="glowny">
+    <!-- Zdjecie GŁÓWNE -->
+
+
+    <img src="http://www.brykacze.pl/bryk/511345s2.jpg" alt="">
+
+
+    <!-- // Zdjecie GŁÓWNE -->
+    </div>
+    <div class="kliknij">Kliknij na zdjęcie, aby powiększyć</div>
+   
+    <div class="mini">
+    <!-- Zdjecia MINIATURKI -->
+
+
+      <!-- #1 --><a href="http://www.brykacze.pl/bryk/511345s2.jpg">
+      <img src="http://www.brykacze.pl/bryk/511345s2.jpg"></a>
+      <!-- #2 --><a href="http://www.brykacze.pl/bryk/511345s2.jpg">
+      <img src="http://www.brykacze.pl/bryk/511345s2.jpg"></a>
+      <!-- #3 --><a href="http://www.brykacze.pl/bryk/511345s2.jpg">
+      <img src="http://www.brykacze.pl/bryk/511345s2.jpg"></a>
+      <!-- #4 --><a href="http://www.brykacze.pl/bryk/511345s2.jpg">
+      <img src="http://www.brykacze.pl/bryk/511345s2.jpg"></a>
+
+
+    <!-- Zdjecia MINIATURKI -->
+    </div>
+
+    <h2>    
+    <!-- OPIS -->
+
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut iste, doloremque illo voluptatem incidunt et ducimus, cum sed dolores dicta quas autem tenetur quam nam pariatur dignissimos illum suscipit quibusdam?
+
+
+    <!-- OPIS -->
+    </h2>
+  </article>
+
+  <footer>
+    <section class="platnosc">
+      <h3>Płatność</h3>
+      <img src="http://www.czekoperfekt.pl/allegro/PayU.png" alt="">
+      <img src="http://vignette3.wikia.nocookie.net/leagueoflegends/images/5/51/Przelewy24.png/revision/latest/scale-to-width-down/640?cb=20140321163754&path-prefix=pl" alt="">
+      <div class="clear"></div>
+      <div>
+        Marcin Pająk  <br>
+        32-420 Gdów 1213 <br>
+        Bank PKO BP<br>
+        02 1020 2892 0000 5902 0608 8571
+      </div>
+    </section>
+
+    <section class="kontakt">
+      <h3>Kontakt</h3>
+      <div class="logo_mini">
+      <img src="http://i1376.photobucket.com/albums/ah8/Kamil_Kmita/logo_zpssqbseqiu.png">
+      </div>
+      <div class="clear"></div>
+      <div class="dane">
+        Marcin Pająk <br>
+        32-420 Gdów 1213 <br>
+        pn-sob 9:00 - 17:00    
+      </div>
+      <div class="stopka">
+        <i class="fa fa-phone"></i>&nbsp;&nbsp;+48 504 237 443 <br>
+        <i class="fa fa-envelope-o"></i>&nbsp;&nbsp;biuro@arden-company.pl <br>
+      </div>
+
+    </section>
+  </footer>
+
+
+
+<!-- Aukcjoner.pl PANEL START -->
+<br clear="all"><center><table id="aukcjoner260612" cellspacing="0" style="font:10px Verdana; margin:10px auto; border-collapse:separate; border-spacing:0"><tr><td class="au_img au_left au_top"><a rel="nofollow" href="http://www.aukcjoner.pl/panele/click/260612,1/" target="_blank"><img class="au_cur" src="http://panel.aukcjoner.pl/Panel/img/260612/1-over.png"><img class="au_auc" src="http://panel.aukcjoner.pl/Panel/img/260612/1.jpg"></a></td><td class="au_img au_top"><a rel="nofollow" href="http://www.aukcjoner.pl/panele/click/260612,2/" target="_blank"><img class="au_cur" src="http://panel.aukcjoner.pl/Panel/img/260612/2-over.png"><img class="au_auc" src="http://panel.aukcjoner.pl/Panel/img/260612/2.jpg"></a></td><td class="au_img au_top"><a rel="nofollow" href="http://www.aukcjoner.pl/panele/click/260612,3/" target="_blank"><img class="au_cur" src="http://panel.aukcjoner.pl/Panel/img/260612/3-over.png"><img class="au_auc" src="http://panel.aukcjoner.pl/Panel/img/260612/3.jpg"></a></td><td class="au_img au_right au_top"><a rel="nofollow" href="http://www.aukcjoner.pl/panele/click/260612,4/" target="_blank"><img class="au_cur" src="http://panel.aukcjoner.pl/Panel/img/260612/4-over.png"><img class="au_auc" src="http://panel.aukcjoner.pl/Panel/img/260612/4.jpg"></a></td></tr><tr><td class="au_img au_left au_bottom"><a rel="nofollow" href="http://www.aukcjoner.pl/panele/click/260612,5/" target="_blank"><img class="au_cur" src="http://panel.aukcjoner.pl/Panel/img/260612/5-over.png"><img class="au_auc" src="http://panel.aukcjoner.pl/Panel/img/260612/5.jpg"></a></td><td class="au_img au_bottom"><a rel="nofollow" href="http://www.aukcjoner.pl/panele/click/260612,6/" target="_blank"><img class="au_cur" src="http://panel.aukcjoner.pl/Panel/img/260612/6-over.png"><img class="au_auc" src="http://panel.aukcjoner.pl/Panel/img/260612/6.jpg"></a></td><td class="au_img au_bottom"><a rel="nofollow" href="http://www.aukcjoner.pl/panele/click/260612,7/" target="_blank"><img class="au_cur" src="http://panel.aukcjoner.pl/Panel/img/260612/7-over.png"><img class="au_auc" src="http://panel.aukcjoner.pl/Panel/img/260612/7.jpg"></a></td><td class="au_img au_right au_bottom"><a rel="nofollow" href="http://www.aukcjoner.pl/panele/click/260612,8/" target="_blank"><img class="au_cur" src="http://panel.aukcjoner.pl/Panel/img/260612/8-over.png"><img class="au_auc" src="http://panel.aukcjoner.pl/Panel/img/260612/8.jpg"></a></td></tr></table></center><style>#aukcjoner260612 td.au_top {border-top:1px solid #FFF}
+#aukcjoner260612 td.au_left {border-left:1px solid #FFF}
+#aukcjoner260612 td.au_right {border-right:1px solid #FFF}
+#aukcjoner260612 td.au_bottom {border-bottom:1px solid #FFF}
+#aukcjoner260612 .au_tab_top {-moz-border-radius:10px 10px 0 0; -webkit-border-radius:10px 10px 0 0; border-radius:10px 10px 0 0;border:1px solid #FFF; border-width: 1px 1px 0 1px}
+#aukcjoner260612 .au_header {padding:0 10px; vertical-align:bottom; border-color:#113355}
+#aukcjoner260612 .au_link {background:#ffffff; color:#000000; padding:1px 10px 1px; margin:0 10px 0 0; display:block; float:right; text-align:center; text-decoration:none}
+#aukcjoner260612 .au_link:hover {text-decoration:underline}
+#aukcjoner260612 .au_tab_bottom {padding:0 10px 2px; margin:0 5px; vertical-align:top; -moz-border-radius:0 0 10px 10px; -webkit-border-radius:0 0 10px 10px; border-radius:0 0 10px 10px; border:1px solid #FFF; border-width: 0 1px 1px 1px}
+#aukcjoner260612 .au_footer {padding:0 10px; height:24px; border-color:#113355}
+#aukcjoner260612 .au_img {font-size:0; vertical-align:top; border-width:0; background:#ffffff; padding:8px; border-right:1px solid #FFF; border-bottom:1px solid #FFF}
+#aukcjoner260612 td.au_top {border-top:1px solid #FFF}
+#aukcjoner260612 td.au_left {border-left:1px solid #FFF}
+#aukcjoner260612 img.au_auc {width:167px; height:214px; background:white url(http://www.aukcjoner.pl/Panel/gfx/loader.gif) no-repeat 50% 50%; border-width:0px}
+#aukcjoner260612 .au_img a {position:relative; display:block; width:167px; height:214px}
+#aukcjoner260612 a img.au_cur {border:none; position:absolute; visibility:hidden; background:none}
+#aukcjoner260612 a:hover img.au_cur {visibility:visible}
+</style>
+<!-- Aukcjoner.pl PANEL KONIEC -->
+
+
+
